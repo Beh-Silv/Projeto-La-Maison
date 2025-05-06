@@ -1,0 +1,43 @@
+/* responsivo.css */
+@media (max-width: 768px) {
+
+    /* menu hamburguer */
+    .nav-toggle {
+        display: block;
+    }
+
+    nav .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--brown);
+        flex-direction: column;
+        display: none;
+    }
+
+    nav .menu.open {
+        display: flex;
+    }
+
+    .menu-item {
+        margin: .75rem 0;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    /* hero menor */
+    .hero {
+        height: 60vh;
+    }
+
+    /* cards em coluna única */
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* promo texto menor */
+    .promo p {
+        font-size: 1rem;
+    }
+}
