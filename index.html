@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>La Maison</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet" />
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <!-- Estilos principais -->
+    <link rel="stylesheet" href="src/css/estilo.css" />
+    <!-- Responsivo -->
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+</head>
+
+<body>
+    <!-- ====== HEADER / NAV ====== -->
+    <header>
+        <div class="logo">La Maison<span>🍞</span></div>
+        <button class="nav-toggle" aria-label="Abrir menu">
+            <span class="hamburger"></span>
+        </button>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home" class="menu-item">Home</a></li>
+                <li><a href="#pao" class="menu-item">Pães</a></li>
+                <li><a href="#doces" class="menu-item">Doces</a></li>
+                <li><a href="#promo" class="menu-item">Promoções</a></li>
+                <li><a href="#contato" class="menu-item">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ====== HERO ====== -->
+    <section id="home" class="hero">
+        <h1>La Maison</h1>
+        <p>A cada fatia, um abraço quentinho: bem-vindo ao sabor que acolhe seu dia.</p>
+        <a href="#pao" class="btn">Ver Nossos Pães</a>
+    </section>
+
+    <!-- ====== SEÇÃO PÃES ====== -->
+    <section id="pao" class="cardapio">
+        <h2>Pães Artesanais</h2>
+        <div class="cards">
+            <article class="card">
+                <img src="src/imagens/croissant-tradicional.jpg" alt="Croissant">
+                <h3>Croissant Tradicional</h3>
+                <p>R$ 6,50</p>
+            </article>
+            <article class="card">
+                <img src="src/imagens/baguete-francesa.webp" alt="Baguette">
+                <h3>Baguette Francesa</h3>
+                <p>R$ 8,00</p>
+            </article>
+            <article class="card">
+                <img src="src/imagens/Pao-de-centeio.jpg" alt="Pão de Centeio">
+                <h3>Pão de Centeio</h3>
+                <p>R$ 7,00</p>
+            </article>
+            <!-- adicione mais itens -->
+        </div>
+    </section>
+
+    <!-- ====== SEÇÃO DOCES ====== -->
+    <section id="doces" class="doces">
+        <h2>Doces & Sobremesas</h2>
+        <div class="cards">
+            <article class="card">
+                <img src="src/imagens/macaron.jpg" alt="Macaron">
+                <h3>Macaron Sortido</h3>
+                <p>R$ 3,00 cada</p>
+            </article>
+            <article class="card">
+                <img src="src/imagens/tartelete-de-frutas.jpg" alt="Tartelette">
+                <h3>Tartelette de Frutas</h3>
+                <p>R$ 12,00</p>
+            </article>
+            <article class="card">
+                <img src="src/imagens/bolo-trufado.jpg" alt="Bolo de Chocolate">
+                <h3>Bolo Trufado</h3>
+                <p>R$ 15,00 fatia</p>
+            </article>
+            <!-- adicione mais itens -->
+        </div>
+    </section>
+
+    <!-- ====== SEÇÃO PROMOÇÕES ====== -->
+    <section id="promo" class="promo">
+        <h2>Promoções do Dia</h2>
+        <p>Desconto de 20% em qualquer pão francês até as 11h! 🥖✨</p>
+        <img src="src/imagens/pao-frances-folhado.jpg" alt="Tag Promoção" class="tag" />
+    </section>
+
+    <!-- ====== FOOTER / CONTATO ====== -->
+    <footer id="contato" class="contato">
+        <h2>Fale Conosco</h2>
+        <p>Rua do Trigo, 123 – Barretos, SP</p>
+        <p>📞 (17) 1234-5678 | 📧 contato@lamaisondebarretos.com</p>
+        <div class="redes">
+            <a href="#"><img src="src/imagens/ico-fb.svg" alt="Facebook"></a>
+            <a href="#"><img src="src/imagens/ico-ig.svg" alt="Instagram"></a>
+        </div>
+        <p class="copy">&copy; 2025 La Maison de Barretos</p>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
